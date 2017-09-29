@@ -1,0 +1,11 @@
+{% extends "index.html" -%}
+{% block content %}
+    <div class="content contact">
+	<li>
+		our Contacts
+		<p><a href="https://www.facebook.com/TrickyTalesIrishFolk"> фэйсбук страничка</a></p>
+	</li>
+{% endblock %}
+{% if session['logged_in'] %}
+{% else %}
+{% endif %}

@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"  lang="ru">
+<head>
+<title>Tricky Tales</title>
+<meta charset="utf-16" />
+<link rel="stylesheet" type="text/css" href="static/style.css" />
+</head>
+
+<body>
+<div id="holder">
+  <div id="header">
+
+  </div>
+  <div id="menu"> <a href="/about">About</a> <a href="conserts">Conserts</a> <a href="/listen">Listen</a> <a href="/contact">Contact</a> </div>
+  <div id="undermenu"></div>
+  {% block content%}
+  <div id="content" class="content about" >
+    <!-- Document starts. -->
+    <h3 id="intro">About band</h3>
+    <p class="text pew">Гурт виник влітку 2014 року.
+Нас об’єднало бажання грати найнезвичайніші і цікаві з музичної точки зору традиційні ірландські мелодії. Перший публічний виступ відбувся 5 квітня 2015 в пабі Route 66. На той час в нашому складі були Марійка Емець(гітара), Юлія Марчук(вісли, флейта) та Олександра Ітерська (віолончель).
+На жаль, через деякий час Олександра відійшла від занять музикою і покинула гурт. Tricky Tales тривалий час проіснували як дует, виступаючи на різноманітних вечірках і фестивалях, а також давли невеликі сольні концерти.
+Влітку 2016 до нас приєднався боуранист Володимир Бондаренко, вперше у такому складі ми виступили на малій сцені фестивалю ТуСтань 2016. Восени того ж року записали перші студійні треки.
+На початку 2017го року до нас приєдналася скрипалька Аудра Полуденна.
+На данний час гурт набув того звучання, про яке мріяв на початку створення. Продовжуємо знаходити цікаві мелодії, наповнюємо їх драйвом і готуємо нові записи.</p>
+
+	<h4>Quote from some-news-site.com:</h4>
+    <p class="quote">Pew-pew ololo</p>
+    <h3 id="dancingwithpenuines">Julia Marchuk</h3>
+    <p class="text">Founder. Flute player</p>
+    <h3 id="mouthofthelion">Mariyka Yemets</h3>
+    <p class="text">Founder. Guitar player</p>
+    <h3 id="coughinghairballs">Vladimir  Bondarenko</h3>
+    <p class="text">Joined in 2016. Bodhran player</p>
+    <h3 id="end">Audra Poludenna</h3>
+    <p class="text">Joined in early 2017. Violin player</p>
+    <!-- Document ends. -->
+  </div>
+{% endblock %}
+
+</div>
+</body>
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="static/main.js"></script>
+</html>
